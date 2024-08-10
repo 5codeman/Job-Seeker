@@ -60,7 +60,7 @@ const JobDetailsPage = ({ deleteJob }) => {
                   Salary
                 </h3>
 
-                <p className='mb-4'>{job.salary} LPA</p>
+                <p className='mb-4'>{job.salary}/Month</p>
               </div>
             </main>
 

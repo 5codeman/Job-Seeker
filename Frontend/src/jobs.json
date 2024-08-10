@@ -83,6 +83,20 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "9876543210"
       }
+    },
+    {
+      "id": "3086",
+      "title": "Backend Developer",
+      "type": "Full-Time",
+      "location": "Bangalore, Karnataka, IND",
+      "description": "Join our team as a Back-End Developer in Bengaluru. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
+      "salary": "Over 200K",
+      "company": {
+        "name": "Google",
+        "description": "Google is a rapidly growing technology company specializing in Google Search and various google apps. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
+        "contactEmail": "googletestmail123@gmail.com",
+        "contactPhone": "9876543210"
+      }
     }
   ]
 }
