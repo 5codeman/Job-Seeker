@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-// import { toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 const AddJobPage = ({ addJobSubmit }) => {
   const [title, setTitle] = useState('');
@@ -35,7 +35,7 @@ const AddJobPage = ({ addJobSubmit }) => {
 
     addJobSubmit(newJob);
 
-    // toast.success('Job Added Successfully');
+    toast.success('Job Added Successfully');
 
     return navigate('/jobs');
   };
