@@ -113,7 +113,7 @@ const JobDetailsPage = ({ deleteJob }) => {
 };
 
 const jobLoader = async ({ params }) => {
-  const res = await fetch(`${API_URL}/api/jobs/${params.id}`);
+  const res = await fetch(`${API_URL}/jobs/${params.id}`);
   const data = await res.json();
   return data;
 };
