@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch db.json --port 8080"
+    "start": "json-server db.json --port $PORT"
   },
   "author": "Chirag Raj",
   "license": "ISC",
